@@ -1,6 +1,7 @@
             .main {
-                border: 1px solid #e7e7e7;
+                /* border: 1px solid #e7e7e7; */
                 background-color: #fff;
+                box-shadow: 2px 2px 5px #DCDBDC;
                 width: 998px;
                 margin-top: 10px;
             }
