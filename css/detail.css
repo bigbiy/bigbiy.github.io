@@ -1,0 +1,703 @@
+            .main {
+                border: 1px solid #e7e7e7;
+                background-color: #fff;
+                width: 998px;
+                margin-top: 10px;
+            }
+            
+            .app-msg {
+                height: 155px;
+                border-bottom: 1px solid #e7e7e7;
+                padding: 20px;
+                padding-bottom: 0;
+            }
+            
+            .app-detail {
+                float: left;
+                height: 129px;
+                width: 550px;
+                border-right: 1px solid #e7e7e7;
+                position: relative;
+            }
+            
+            .app-msg .detail-classify div {
+                width: 288px;
+            }
+            
+            .app-msg .detail-classify {
+                float: left;
+                width: 387px;
+                padding-left: 20px;
+            }
+            
+            .main-left {
+                width: 720px;
+                float: left;
+            }
+            
+            .main-right {
+                width: 278px;
+                float: right;
+            }
+            
+            .editor-remark img,
+            .main-info .app-screenshot-list li,
+            .app-detail img,
+            .app-msg .detail-classify div,
+            .app-msg .detail-classify ul li {
+                float: left;
+            }
+            
+            .app-detail h1 {
+                line-height: 120%;
+                color: #000;
+                font-size: 20px;
+                height: 48px;
+                margin-bottom: 10px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+            
+            .app-detail .app-statistic {
+                line-height: 150%;
+                display: block;
+            }
+            
+            .app-detail img {
+                margin-right: 20px;
+                line-height: 150%;
+                width: 128px;
+                height: 128px;
+            }
+            
+            .app-detail .bmd img {
+                width: 30px;
+                height: 26px;
+            }
+            
+            .app-detail a {
+                color: #fff;
+                font-size: 12px;
+                line-height: 30px;
+                text-decoration: none;
+            }
+            
+            .download-button,
+            .app-msg .detail-classify .download-button {
+                float: left;
+                background-color: #53bf1d;
+                width: 90px;
+                text-align: center;
+                margin-top: 5px;
+            }
+            
+            .download-button a {
+                font-size: 18px;
+                width: 100%;
+                display: block;
+            }
+            
+            .main-info {
+                /* width: 679px; */
+                float: left;
+                padding: 10px 20px;
+                /* border-right: 1px solid #e7e7e7; */
+            }
+            
+            .detail-app-intro {
+                /* width: 679px; */
+                float: left;
+                /* border-right: 1px solid #e7e7e7; */
+            }
+            
+            .txt-center {
+                text-align: center;
+            }
+            
+            .main-off-shelf {
+                width: 750px;
+                margin: 0 auto;
+            }
+            
+            .app-screenshot-list {
+                /* background-color: #f2f2f2; */
+                height: 300px;
+                width: 9999px;
+                overflow: hidden;
+            }
+            
+            .part-title {
+                background-color: #eeeeeb;
+                line-height: 30px;
+                border-left: 5px solid #53bf1d;
+                padding-left: 10px;
+                background-image: url("../images/arrow.png");
+                background-repeat: no-repeat;
+                background-position: 98% 50%;
+                vertical-align: middle;
+                color: #000;
+                margin-bottom: 13px;
+            }
+            
+            .main-info .art-content {
+                margin-bottom: 20px;
+            }
+            
+            .main-info h2,
+            .main-info h3 {
+                margin-bottom: 13px;
+                color: #000;
+            }
+            
+            .main-info h3 {
+                padding-left: 4px;
+            }
+            
+            .remark-list li {
+                border-bottom: 1px solid #ececeb;
+                padding-left: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                line-height: 2em;
+            }
+            
+            .check-all-remark {
+                width: 100%;
+                height: 40px;
+                background-color: #53bf1d;
+                color: #fff;
+                margin-top: 10px;
+                text-align: center;
+                line-height: 40px;
+                margin-bottom: 19px;
+                display: block;
+                text-decoration: none;
+            }
+            
+            .post-remark {
+                text-align: center;
+            }
+            
+            .post-remark a {
+                color: #53bf1d;
+            }
+            
+            .other-info {
+                float: right;
+                width: 240px;
+                margin-right: 20px;
+                padding-left: 20px;
+            }
+            
+            .intro {
+                margin-top: 20px;
+                margin-left: 6px;
+            }
+            
+            .app-other-info-intro {
+                margin-top: 30px;
+                margin-left: 10px;
+            }
+            
+            .one-key-report {
+                margin-top: 16px;
+                width: 204px;
+                height: 50px;
+                border-top: 2px solid #53bf1d;
+                color: #666;
+                background-color: #eeeeeb;
+                text-align: center;
+                padding-top: 5px;
+                padding-left: 17px;
+                padding-right: 18px;
+                margin-bottom: 15px;
+            }
+            
+            .report-button {
+                background-color: #53bf1d;
+                height: 25px;
+                color: #fff;
+                background-image: url("../images/jubao.png");
+                background-repeat: no-repeat;
+                background-position: 27px;
+                background-size: 20px;
+                width: 183px;
+                margin: 6px auto;
+                height: 34px;
+                line-height: 34px;
+                text-align: center;
+            }
+            
+            .report-button a {
+                color: #fff;
+                text-decoration: none;
+                padding: 9px 45px;
+                position: relative;
+                left: 8px;
+                font-size: 14px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            
+            .top .more {
+                clear: right;
+                float: right;
+                color: #666;
+            }
+            
+            .more a {
+                color: #666;
+                text-decoration: none;
+            }
+            
+            .msg ul li,
+            .detail-classify ul li {
+                line-height: 17px;
+                height: 15px;
+                text-align: center;
+                border-radius: 7px;
+                margin-bottom: 4px;
+                border: 1px solid #53bf1d;
+                margin-right: 4px;
+                float: left;
+                font-size: 12px;
+            }
+            
+            .msg ul li span,
+            .detail-classify ul li span {
+                color: #53bf1d;
+                text-decoration: none;
+                padding: 3px 5px;
+            }
+            
+            .msg ul,
+            .detail-classify ul {
+                margin-top: 6px;
+            }
+            
+            .detail-classify h1.title {
+                margin-top: 2px;
+                color: #000;
+            }
+            
+            .other-info-part-title {
+                color: #000;
+                line-height: 200%;
+            }
+            
+            .interrelate-app.has-border {
+                margin-top: 0;
+            }
+            
+            .interrelate-app.has-border .other-info-part-title {
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            
+            .intro .art-content,
+            .one-key-report p {
+                line-height: 150%;
+            }
+            
+            .main-info .art-content,
+            h2 {
+                padding-left: 4px;
+                line-height: 2em;
+                word-wrap: break-word;
+            }
+            
+            .check-all-remark a {
+                color: #fff;
+                text-decoration: none;
+                padding: 13px 288px;
+            }
+            
+            .detail-app-intro .main-info .app-screenshot-list li {
+                margin-right: 5px;
+                position: relative;
+                z-index: 0;
+            }
+            
+            .editor-remark-content {
+                line-height: 2em;
+            }
+            
+            .remark-content {
+                text-overflow: ellipsis;
+                overflow: hidden;
+                color: #666;
+            }
+            
+            .install-count {
+                color: #666;
+            }
+            
+            .slider {
+                position: absolute;
+                width: 70px;
+                height: 300px;
+                background-repeat: no-repeat;
+                z-index: 99999;
+                opacity: 0.5;
+                filter: alpha(opacity=50);
+                background-position: 10px 100px;
+            }
+            
+            #slide-left.active {
+                background-image: url("../images/arrow_left.gif");
+                background-color: #fff;
+            }
+            
+            #slide-right {
+                margin-left: 609px;
+                background-position: 15px 100px;
+            }
+            
+            #slide-right.active {
+                background-image: url("../images/arrow_right.gif");
+                background-color: #fff;
+            }
+            
+            .screenshot {
+                overflow: hidden;
+                overflow-x: scroll\9;
+            }
+            
+            .install-count {
+                text-align: center;
+                display: block;
+                overflow: hidden;
+                width: 69px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            
+            .app-screenshot {
+                height: 300px;
+            }
+            
+            .top-more {
+                float: right;
+                color: #a1a1a1;
+            }
+            
+            .top-more a {
+                color: #a1a1a1;
+                text-decoration: none;
+            }
+            
+            .game-rel-strategy-list ul li a {
+                color: #777;
+                text-decoration: none;
+                line-height: 2em;
+            }
+            
+            .game-rel-strategy-list ul {
+                margin-bottom: 20px;
+            }
+            
+            .game-rel-strategy-list ul li {
+                border-bottom: 1px dashed #aaa;
+                margin-left: 6px;
+                width: 650px;
+            }
+            
+            .strategy-date.fright {
+                line-height: 2em;
+            }
+            
+            .permissionsDetail.has-border {
+                width: 220px;
+                /* height: 245px; */
+                min-height: 50px;
+                max-height: 245px;
+                margin-top: 12px;
+                background-color: #f9f9f9;
+                overflow-x: hidden;
+                /* overflow-y: scroll; */
+                overflow-y: auto;
+            }
+            
+            .permissions-list li {
+                line-height: 1.5em;
+            }
+            
+            .permissions-list {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-left: 7px;
+            }
+            
+            .historyVerison ul {
+                margin-left: 17px;
+            }
+            
+            .historyVerison ul li {
+                width: 650px;
+                height: 79px;
+            }
+            
+            .history-verison-app-info {
+                margin-left: 10px;
+                margin-right: 10px;
+                line-height: 1.3em;
+            }
+            
+            .history-verison-app-info .history-verison-app-name,
+            .history-verison-app-info .history-verison-app-versionName,
+            .history-verison-app-info .history-verison-app-size {
+                width: 100px;
+                display: inline-block;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                margin-bottom: -3px;
+            }
+            
+            a.historyVerison-download {
+                width: 56px;
+                border-radius: 4px;
+                height: 30px;
+                text-align: center;
+                background-color: #53bf1d;
+                color: #fff;
+                text-decoration: none;
+                line-height: 30px;
+                margin-top: 10px;
+            }
+            
+            .history-version-app-updateMsg {
+                width: 400px;
+                height: 48px;
+                overflow: hidden;
+                display: inline-block;
+            }
+            
+            .download-button.direct_download,
+            .app-msg .detail-classify .download-button.direct_download {
+                background-color: #fff;
+                border: 1px solid #e0e0e0;
+                height: 28px;
+                width: 88px;
+            }
+            
+            .app-msg .detail-classify .download-button.direct_download {
+                float: right;
+                height: 26px;
+                line-height: 26px;
+                font-size: 18px;
+                margin-right: 6px;
+                width: 110px;
+            }
+            
+            .app-msg .detail-classify .download-button {
+                float: right;
+                line-height: 27px;
+                font-size: 14px;
+                margin-right: 6px;
+                width: 112px;
+            }
+            
+            .app-msg .detail-classify .download-button a {
+                font-size: 14px;
+            }
+            
+            .app-msg .detail-classify .download-button {}
+            
+            .app-msg .detail-classify .download-button .app-setup {
+                text-decoration: none;
+                color: #fff;
+            }
+            
+            .direct_download a.download_app {
+                color: #666;
+                text-decoration: none;
+            }
+            
+            .detail-classify .detail-app-tag-other-info .detail-app-tag {
+                width: 210px;
+                height: 30px;
+                padding-right: 14px;
+                overflow: hidden;
+            }
+            
+            .detail-app-other-info {
+                overflow: hidden;
+                display: block;
+                margin-top: -8px;
+            }
+            
+            .detail-classify .detail-app-tag ul li {
+                border: none;
+                margin-bottom: 6px;
+                float: right;
+            }
+            
+            .detail-classify .detail-app-tag ul li a {
+                color: #666;
+                padding: 0px 9px;
+                width: 90px;
+            }
+            
+            .app-msg .detail-classify .detail-app-tag-other-info {
+                width: 210px;
+                margin-top: 42px;
+            }
+            
+            .app-msg .detail-classify .qr-code {
+                float: right;
+                width: 125px;
+                heihgt: 125px;
+                margin-left: 50px;
+                margin-top: 5px;
+            }
+            
+            .detail-sup {
+                width: 100%;
+            }
+            
+            .detail-sup img {
+                width: 18px;
+                height: 18px;
+                float: none;
+                vertical-align: middle;
+                margin-top: -3px;
+                margin-right: 12px;
+            }
+            
+            .detail-sup em {
+                margin: 0 6px;
+                vertical-align: top;
+            }
+            
+            .srel-ul {
+                list-style: none;
+                margin-left: 5px;
+            }
+            
+            .srel-li {
+                float: left;
+            }
+            
+            .srel-li a {
+                margin: 0px 10px;
+                display: block;
+                text-decoration: none;
+                color: #000;
+                font-weight: bold;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                text-align: center;
+                width: 92px;
+                margin-bottom: 10px;
+            }
+            
+            .srel-li a img {
+                display: block;
+                width: 64px;
+                height: 64px;
+                margin-left: 14px;
+                margin-bottom: 5px;
+            }
+            
+            .dna-a {
+                color: #057ff1;
+                text-decoration: none;
+            }
+            
+            .dna-a:hover {
+                text-decoration: underline;
+            }
+            
+            #checkPermissions {
+                cursor: pointer;
+                margin-top: 9px;
+                display: block;
+                color: #666;
+                width: 80px;
+            }
+            
+            #left.has-border.comments {
+                width: 716px;
+            }
+            
+            .recomments-app-name {
+                height: 30px;
+                width: 659px;
+                border-bottom: 1px solid #53bf1d;
+                padding-right: 20px;
+                margin-left: 20px;
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
+            
+            .recomments-app-name h1 {
+                font-size: 17px;
+                color: #555;
+                float: left;
+                line-height: 30px;
+            }
+            
+            .comments-list {
+                margin-left: 20px;
+                width: 679px;
+            }
+            
+            .comments-list li {
+                border-bottom: 1px dashed #e0e0e0;
+                margin-bottom: 10px;
+            }
+            
+            .comment-nickname {
+                float: left;
+                font-size: 14px;
+                color: #53bf1d;
+                width: 250px;
+            }
+            
+            .date {
+                float: right;
+            }
+            
+            .usertype,
+            .phonetype {
+                color: #919191;
+                margin-right: 4px;
+            }
+            
+            .phonetype {
+                margin-left: 4px;
+            }
+            
+            .historyVerison img.fleft {
+                width: 50px;
+                height: 50px;
+            }
+            
+            .bmd-cnaac {
+                display: inline-block;
+            }
+            
+            .bmdcnaac {
+                position: absolute;
+                bottom: 0;
+                right: 0px;
+            }
+            
+            .app-detail .bmd-cnaac img {
+                width: 40px;
+                height: auto;
+            }
+            
+            .app-detail .warn-jinrong {
+                margin-top: 18px;
+                margin-left: 22px;
+            }
+            
+            .app-detail .warn-jinrong-text {
+                color: red;
+            }
