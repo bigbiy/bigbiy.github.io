@@ -7,7 +7,9 @@
             }
             
             .app-msg {
-                height: 155px;
+                display: flex;
+                align-items: center;
+                height: 255px;
                 border-bottom: 1px solid #e7e7e7;
                 padding: 20px;
                 padding-bottom: 0;
@@ -16,7 +18,7 @@
             .app-detail {
                 float: left;
                 height: 129px;
-                width: 550px;
+                width: 450px;
                 border-right: 1px solid #e7e7e7;
                 position: relative;
             }
@@ -551,9 +553,7 @@
             .app-msg .detail-classify .qr-code {
                 float: right;
                 width: 125px;
-                heihgt: 125px;
                 margin-left: 50px;
-                margin-top: 5px;
             }
             
             .detail-sup {
